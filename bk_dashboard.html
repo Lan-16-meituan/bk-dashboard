@@ -553,6 +553,12 @@ small{font-size:10px;color:#999}
 <td>52.5%<br><small>MoM:<span class="dn">-2.05ppt</span></small></td>
 <td>1.82</td>
 </tr>
+<tr>
+<td class="wl">2026年7月<br><small>截至07/12</small></td>
+<td>54.1%<br><small>MoM:<span class="dn">-1.34ppt</span></small></td>
+<td>51.4%<br><small>MoM:<span class="dn">-1.06ppt</span></small></td>
+<td>-</td>
+</tr>
       </tbody>
     </table>
     </div>
@@ -679,10 +685,10 @@ new Chart(document.getElementById('zsC'),{type:'line',data:{labels:["0525~0531",
 new Chart(document.getElementById('zsMC'),{type:'bar',data:{labels:["2026年4月","2026年5月","2026年6月"],datasets:[{data:[2.06,1.97,1.82],backgroundColor:[R+'cc',O+'cc',Y+'cc'],borderColor:[R,O,Y],borderWidth:1,borderRadius:4}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)}}},scales:{...BO.scales,y:{...BO.scales.y,min:1.5,max:2.3}}}});
 
 // TAB3: CR2实付M值月度趋势
-new Chart(document.getElementById('cr2GmvC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月"],datasets:[{data:[56.45,58.51,59.27,55.74,56.52,55.39],borderColor:R,backgroundColor:R+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('cr2GmvC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月","7月(截至12日)","7月(截至12日)","7月(截至12日)"],datasets:[{data:[56.45,58.51,59.27,55.74,56.52,55.39,54.06],borderColor:R,backgroundColor:R+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
 
 // TAB3: CR2订单M值月度趋势
-new Chart(document.getElementById('cr2OrdC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月"],datasets:[{data:[54.27,56.47,59.50,54.00,54.51,52.46],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('cr2OrdC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月","7月(截至12日)","7月(截至12日)","7月(截至12日)"],datasets:[{data:[54.27,56.47,59.50,54.00,54.51,52.46,51.41],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
 </script>
 </body>
 </html>
