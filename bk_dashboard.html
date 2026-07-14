@@ -63,9 +63,9 @@ small{font-size:10px;color:#999}
   <div class="ts">数据更新：2026-07-13<br>日度截至 07/12 | 周度截至 0706~0712</div>
 </div>
 <div class="nav">
-  <a class="active" onclick="showTab('t3',this)">⚔️ 竞争信息</a>
-  <a onclick="showTab('t1',this)">📊 常规经营</a>
+  <a class="active" onclick="showTab('t1',this)">📊 常规经营</a>
   <a onclick="showTab('t2',this)">💰 补贴进度</a>
+  <a onclick="showTab('t3',this)">⚔️ 竞争信息</a>
   <a onclick="showTab('t4',this)">🏪 BK规模</a>
 </div>
 <div class="wrap">
@@ -102,110 +102,70 @@ small{font-size:10px;color:#999}
         <th>实付GMV(W)<br><small>WoW/DoD</small></th>
         <th>订单量<br><small>WoW/DoD</small></th>
         <th>客单价<br><small>WoW/DoD</small></th>
-        <th>商补率<br><small>WoW</small></th>
-        <th>单均商补<br><small>WoW</small></th>
-        <th>BU补贴率<br><small>WoW</small></th>
-        <th>单均美补¹<br><small>WoW</small></th>
-        <th>曝光(万)<br><small>WoW</small></th>
-        <th>P1<br><small>WoW</small></th>
-        <th>P2<br><small>WoW</small></th>
+        <th>CR2实付M值<br><small>WoWpp/DoDpp</small></th>
+        <th>CR2订单M值<br><small>WoWpp/DoDpp</small></th>
       </tr></thead>
       <tbody>
 <tr>
 <td class="wl">07/06 周一</td>
-<td>437.23W<br><span class="neu">-</span></td>
-<td>11.57万<br><span class="neu">-</span></td>
-<td>¥37.79<br><span class="neu">-</span></td>
-<td>43.14%<br><span class="neu">-</span></td>
-<td>¥31.32<br><span class="neu">-</span></td>
-<td>8.40%<br><span class="neu">-</span></td>
-<td>¥3.18<br><span class="neu">-</span></td>
-<td>402.5万<br><span class="neu">-</span></td>
-<td>11.33%<br><span class="neu">-</span></td>
-<td>33.35%<br><span class="neu">-</span></td>
+<td>437.23W<br><span class="dn">-7.2%</span> / <span class="dn">-11.5%</span></td>
+<td>11.6万<br><span class="dn">-6.5%</span> / <span class="dn">-4.7%</span></td>
+<td>¥37.79<br><span class="dn">-0.7%</span> / <span class="dn">-7.0%</span></td>
+<td>53.7%<br><span class="dn">-3.32ppt</span> / <span class="up">+1.38ppt</span></td>
+<td>51.0%<br><span class="dn">-3.04ppt</span> / <span class="up">+1.36ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/07 周二</td>
-<td>459.67W<br><span class="neu">-</span></td>
-<td>12.04万<br><span class="neu">-</span></td>
-<td>¥38.17<br><span class="neu">-</span></td>
-<td>43.06%<br><span class="neu">-</span></td>
-<td>¥31.56<br><span class="neu">-</span></td>
-<td>8.54%<br><span class="neu">-</span></td>
-<td>¥3.26<br><span class="neu">-</span></td>
-<td>421.7万<br><span class="neu">-</span></td>
-<td>11.13%<br><span class="neu">-</span></td>
-<td>33.98%<br><span class="neu">-</span></td>
+<td>459.67W<br><span class="dn">-2.8%</span> / <span class="up">+5.1%</span></td>
+<td>12.0万<br><span class="dn">-2.8%</span> / <span class="up">+4.1%</span></td>
+<td>¥38.17<br><span class="dn">-0.1%</span> / <span class="up">+1.0%</span></td>
+<td>53.9%<br><span class="dn">-2.84ppt</span> / <span class="up">+0.21ppt</span></td>
+<td>51.4%<br><span class="dn">-2.80ppt</span> / <span class="up">+0.44ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/08 周三</td>
-<td>468.64W<br><span class="neu">-</span></td>
-<td>12.19万<br><span class="neu">-</span></td>
-<td>¥38.43<br><span class="neu">-</span></td>
-<td>43.80%<br><span class="neu">-</span></td>
-<td>¥32.67<br><span class="neu">-</span></td>
-<td>8.25%<br><span class="neu">-</span></td>
-<td>¥3.17<br><span class="neu">-</span></td>
-<td>415.7万<br><span class="neu">-</span></td>
-<td>11.44%<br><span class="neu">-</span></td>
-<td>33.99%<br><span class="neu">-</span></td>
+<td>468.64W<br><span class="dn">-2.7%</span> / <span class="up">+1.9%</span></td>
+<td>12.2万<br><span class="dn">-3.1%</span> / <span class="up">+1.3%</span></td>
+<td>¥38.44<br><span class="up">+0.4%</span> / <span class="up">+0.7%</span></td>
+<td>53.2%<br><span class="dn">-0.81ppt</span> / <span class="dn">-0.71ppt</span></td>
+<td>50.6%<br><span class="dn">-0.94ppt</span> / <span class="dn">-0.78ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/09 周四</td>
-<td>452.78W<br><span class="neu">-</span></td>
-<td>11.73万<br><span class="neu">-</span></td>
-<td>¥38.60<br><span class="neu">-</span></td>
-<td>42.93%<br><span class="neu">-</span></td>
-<td>¥31.65<br><span class="neu">-</span></td>
-<td>8.13%<br><span class="neu">-</span></td>
-<td>¥3.14<br><span class="neu">-</span></td>
-<td>421.5万<br><span class="neu">-</span></td>
-<td>10.96%<br><span class="neu">-</span></td>
-<td>33.24%<br><span class="neu">-</span></td>
+<td>452.78W<br><span class="dn">-3.7%</span> / <span class="dn">-3.4%</span></td>
+<td>11.7万<br><span class="dn">-6.9%</span> / <span class="dn">-3.8%</span></td>
+<td>¥38.60<br><span class="up">+3.4%</span> / <span class="up">+0.4%</span></td>
+<td>53.8%<br><span class="dn">-0.13ppt</span> / <span class="up">+0.57ppt</span></td>
+<td>51.2%<br><span class="dn">-1.48ppt</span> / <span class="up">+0.57ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/10 周五</td>
-<td>490.25W<br><span class="neu">-</span></td>
-<td>12.73万<br><span class="neu">-</span></td>
-<td>¥38.52<br><span class="neu">-</span></td>
-<td>43.84%<br><span class="neu">-</span></td>
-<td>¥33.11<br><span class="neu">-</span></td>
-<td>9.13%<br><span class="neu">-</span></td>
-<td>¥3.52<br><span class="neu">-</span></td>
-<td>440.6万<br><span class="neu">-</span></td>
-<td>10.84%<br><span class="neu">-</span></td>
-<td>34.39%<br><span class="neu">-</span></td>
+<td>490.25W<br><span class="up">+0.5%</span> / <span class="up">+8.2%</span></td>
+<td>12.7万<br><span class="up">+5.2%</span> / <span class="up">+8.5%</span></td>
+<td>¥38.53<br><span class="dn">-4.4%</span> / <span class="dn">-0.2%</span></td>
+<td>53.3%<br><span class="dn">-0.10ppt</span> / <span class="dn">-0.55ppt</span></td>
+<td>51.1%<br><span class="up">+1.47ppt</span> / <span class="dn">-0.10ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/11 周六</td>
-<td>573.03W<br><span class="neu">-</span></td>
-<td>14.79万<br><span class="neu">-</span></td>
-<td>¥38.75<br><span class="neu">-</span></td>
-<td>45.63%<br><span class="neu">-</span></td>
-<td>¥36.63<br><span class="neu">-</span></td>
-<td>11.68%<br><span class="neu">-</span></td>
-<td>¥4.53<br><span class="neu">-</span></td>
-<td>482.5万<br><span class="neu">-</span></td>
-<td>11.28%<br><span class="neu">-</span></td>
-<td>35.48%<br><span class="neu">-</span></td>
+<td>573.03W<br><span class="up">+8.7%</span> / <span class="up">+16.9%</span></td>
+<td>14.8万<br><span class="up">+14.7%</span> / <span class="up">+16.2%</span></td>
+<td>¥38.75<br><span class="dn">-5.2%</span> / <span class="up">+0.6%</span></td>
+<td>57.1%<br><span class="up">+2.86ppt</span> / <span class="up">+3.84ppt</span></td>
+<td>55.8%<br><span class="up">+4.86ppt</span> / <span class="up">+4.70ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/12 周日</td>
-<td>555.64W<br><span class="neu">-</span></td>
-<td>14.38万<br><span class="neu">-</span></td>
-<td>¥38.64<br><span class="neu">-</span></td>
-<td>45.63%<br><span class="neu">-</span></td>
-<td>¥36.63<br><span class="neu">-</span></td>
-<td>11.91%<br><span class="neu">-</span></td>
-<td>¥4.60<br><span class="neu">-</span></td>
-<td>486.8万<br><span class="neu">-</span></td>
-<td>11.05%<br><span class="neu">-</span></td>
-<td>35.06%<br><span class="neu">-</span></td>
+<td>555.64W<br><span class="up">+6.8%</span> / <span class="dn">-3.1%</span></td>
+<td>14.4万<br><span class="up">+8.6%</span> / <span class="dn">-2.8%</span></td>
+<td>¥38.64<br><span class="dn">-1.7%</span> / <span class="dn">-0.3%</span></td>
+<td>56.2%<br><span class="up">+3.32ppt</span> / <span class="dn">-0.92ppt</span></td>
+<td>54.7%<br><span class="up">+4.58ppt</span> / <span class="dn">-1.10ppt</span></td>
 </tr>
       </tbody>
     </table>
     </div>
-    <div class="note">¹单均美补=直营白领+直营校园口径；7月日度商补/BU/曝光数据待下次经营数据文件更新</div>
+    <div class="note">WoW=同比上周同星期；DoD=对比前一天；CR2 M值来自M值及补贴数据源</div>
   </div>
 
   <div class="sec">
@@ -217,13 +177,8 @@ small{font-size:10px;color:#999}
         <th>实付GMV(W)<br><small>WoW</small></th>
         <th>订单量<br><small>WoW</small></th>
         <th>客单价<br><small>WoW</small></th>
-        <th>商补率<br><small>WoW</small></th>
-        <th>单均商补<br><small>WoW</small></th>
-        <th>BU补贴率<br><small>WoW</small></th>
-        <th>单均美补¹<br><small>WoW</small></th>
-        <th>曝光(万)<br><small>WoW</small></th>
-        <th>P1<br><small>WoW</small></th>
-        <th>P2<br><small>WoW</small></th>
+        <th>CR2实付M值<br><small>WoWpp</small></th>
+        <th>CR2订单M值<br><small>WoWpp</small></th>
         <th>战损比</th>
       </tr></thead>
       <tbody>
@@ -232,7 +187,8 @@ small{font-size:10px;color:#999}
 <td>2933.74W<br><span class="neu">基准周</span></td>
 <td>74.5万<br><span class="neu">基准周</span></td>
 <td>¥39.40<br><span class="neu">基准周</span></td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
+<td>53.3%<br><span class="neu">基准周</span></td>
+<td>50.6%<br><span class="neu">基准周</span></td>
 <td>1.96</td>
 </tr>
 <tr>
@@ -240,13 +196,8 @@ small{font-size:10px;color:#999}
 <td>3481.81W<br><span class="up">+18.7%</span></td>
 <td>89.9万<br><span class="up">+20.7%</span></td>
 <td>¥38.73<br><span class="dn">-1.7%</span></td>
-<td>44.70%<br><span class="neu">-</span></td>
-<td>¥35.06<br><span class="neu">-</span></td>
-<td>11.04%<br><span class="neu">-</span></td>
-<td>¥4.29<br><span class="neu">-</span></td>
-<td>2116万<br><span class="neu">-</span></td>
-<td>11.63%<br><span class="neu">-</span></td>
-<td>36.71%<br><span class="neu">-</span></td>
+<td>56.0%<br><span class="up">+2.72ppt</span></td>
+<td>53.5%<br><span class="up">+2.88ppt</span></td>
 <td>1.72</td>
 </tr>
 <tr>
@@ -254,13 +205,8 @@ small{font-size:10px;color:#999}
 <td>3435.59W<br><span class="dn">-1.3%</span></td>
 <td>86.9万<br><span class="dn">-3.4%</span></td>
 <td>¥39.55<br><span class="up">+2.1%</span></td>
-<td>44.17%<br><span class="dn">-0.53ppt</span></td>
-<td>¥33.13<br><span class="dn">-5.5%</span></td>
-<td>9.31%<br><span class="dn">-1.73ppt</span></td>
-<td>¥3.54<br><span class="dn">-17.5%</span></td>
-<td>867万²<br><span class="dn">-59.0%</span></td>
-<td>11.22%<br><span class="dn">-0.41ppt</span></td>
-<td>35.27%<br><span class="dn">-1.44ppt</span></td>
+<td>54.3%<br><span class="dn">-1.72ppt</span></td>
+<td>51.1%<br><span class="dn">-2.34ppt</span></td>
 <td>2.19</td>
 </tr>
 <tr>
@@ -268,13 +214,14 @@ small{font-size:10px;color:#999}
 <td>3437.25W<br><span class="up">+0.0%</span></td>
 <td>89.4万<br><span class="up">+2.9%</span></td>
 <td>¥38.44<br><span class="dn">-2.8%</span></td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
-<td>1.90<br><span class="dn">-0.29</span></td>
+<td>54.5%<br><span class="up">+0.25ppt</span></td>
+<td>52.3%<br><span class="up">+1.21ppt</span></td>
+<td>-</td>
 </tr>
       </tbody>
     </table>
     </div>
-    <div class="note">¹单均美补=直营白领+直营校园口径；²0629~0705曝光仅含6/29-6/30两天，数值偏低；0615~0621及0706~0712商补/BU/曝光待补充</div>
+    <div class="note">战损比=B+单均补贴/MT单均补贴；0706~0712战损比数据待更新</div>
   </div>
 
   <div class="sec">
@@ -286,51 +233,42 @@ small{font-size:10px;color:#999}
         <th>实付GMV(W)<br><small>MoM</small></th>
         <th>订单量<br><small>MoM</small></th>
         <th>客单价<br><small>MoM</small></th>
-        <th>商补率<br><small>MoM</small></th>
-        <th>单均商补</th>
-        <th>BU补贴率<br><small>MoM</small></th>
-        <th>单均美补¹</th>
-        <th>曝光(万)<br><small>MoM</small></th>
-        <th>P1<br><small>MoM</small></th>
-        <th>P2<br><small>MoM</small></th>
+        <th>CR2实付M值<br><small>MoMpp</small></th>
+        <th>CR2订单M值<br><small>MoMpp</small></th>
+        <th>战损比</th>
       </tr></thead>
       <tbody>
 <tr>
+<td class="wl">2026年4月</td>
+<td>11646.94W<br><span class="neu">基准月</span></td>
+<td>322.7万<br><span class="neu">基准月</span></td>
+<td>¥36.10<br><span class="neu">基准月</span></td>
+<td>55.74%<br><span class="neu">基准月</span></td>
+<td>54.00%<br><span class="neu">基准月</span></td>
+<td>2.06</td>
+</tr>
+<tr>
 <td class="wl">2026年5月</td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
-<td class="neu">-</td><td class="neu">-</td>
+<td>13422.39W<br><span class="up">+15.2%</span></td>
+<td>353.9万<br><span class="up">+9.7%</span></td>
+<td>¥37.93<br><span class="up">+5.1%</span></td>
+<td>56.52%<br><span class="up">+0.77ppt</span></td>
+<td>54.51%<br><span class="up">+0.51ppt</span></td>
+<td>1.97</td>
 </tr>
 <tr>
 <td class="wl">2026年6月</td>
-<td>13466.79W<br><span class="neu">基准月</span></td>
-<td>347.2万<br><span class="neu">基准月</span></td>
-<td>¥38.79<br><span class="neu">基准月</span></td>
-<td>43.71%<br><span class="neu">基准月</span></td>
-<td>¥33.32<br><span class="neu">基准月</span></td>
-<td>9.84%<br><span class="neu">基准月</span></td>
-<td>¥3.82<br><span class="neu">基准月</span></td>
-<td>12095万<br><span class="neu">基准月</span></td>
-<td>10.78%<br><span class="neu">基准月</span></td>
-<td>34.79%<br><span class="neu">基准月</span></td>
-</tr>
-<tr>
-<td class="wl">2026年7月(截至07/12)</td>
-<td>5875.65W<br><span class="neu">月累计</span></td>
-<td>150.1万<br><span class="neu">月累计</span></td>
-<td>¥39.15<br><span class="up">+0.9% MoM</span></td>
-<td>43.98%<br><span class="up">+0.26ppt MoM</span></td>
-<td>¥33.68<br><span class="up">+1.1% MoM</span></td>
-<td>8.72%<br><span class="dn">-1.12ppt MoM</span></td>
-<td>¥3.41<br><span class="dn">-10.7% MoM</span></td>
-<td>5194万<br><span class="neu">月累计</span></td>
-<td>11.20%<br><span class="up">+0.41ppt MoM</span></td>
-<td>34.21%<br><span class="dn">-0.58ppt MoM</span></td>
+<td>13466.79W<br><span class="up">+0.3%</span></td>
+<td>347.2万<br><span class="dn">-1.9%</span></td>
+<td>¥38.79<br><span class="up">+2.3%</span></td>
+<td>55.39%<br><span class="dn">-1.12ppt</span></td>
+<td>52.46%<br><span class="dn">-2.05ppt</span></td>
+<td>1.82</td>
 </tr>
       </tbody>
     </table>
     </div>
-    <div class="note">¹单均美补=直营白领+直营校园口径；4月/5月商补/BU/曝光数据待补充；YoY数据源暂缺</div>
+    <div class="note">月度战损比来自战损比（月）数据源；YoY数据源暂缺</div>
   </div>
 
   <div class="cr2">
@@ -346,157 +284,216 @@ small{font-size:10px;color:#999}
     <div class="kpi-g">
       <div class="kpi"><div class="lb">时间进度</div><div class="vl">38.7%</div><div class="sb">12/31天</div></div>
       <div class="kpi"><div class="lb">货架补贴目标（总计）</div><div class="vl">113.39W</div><div class="sb">7月全月</div></div>
-      <div class="kpi"><div class="lb">货架补贴已花费</div><div class="vl red">38.52W</div><div class="sb">截至07/12</div></div>
-      <div class="kpi"><div class="lb">花费进度</div><div class="vl dn-c">34.0%</div><div class="tg-neg">落后时间进度 -4.74pp</div></div>
+      <div class="kpi"><div class="lb">实付GMV达成率</div><div class="vl">41.7%</div>
+        <div class="tg-pos">超时间进度 +2.94pp</div></div>
+      <div class="kpi"><div class="lb">W-1 战损比</div><div class="vl">2.19</div><div class="sb">0629~0705</div></div>
+      <div class="kpi"><div class="lb">W-2 战损比</div><div class="vl">1.72</div><div class="sb">0622~0628</div></div>
     </div>
     <div class="pb-w">
-      <div class="pb-l"><span>货架补贴花费进度</span><span>34.0% | 时间进度38.7% | 差-4.74pp</span></div>
-      <div class="pb"><div class="pf" style="width:34.0%"></div></div>
+      <div class="pb-l"><span>实付GMV达成进度</span><span>41.7% | 时间进度38.7% | 差+2.94pp</span></div>
+      <div class="pb"><div class="pf" style="width:41.7%"></div></div>
     </div>
-    <div class="note">货架补贴花费=全国KA减配美补+全国KA满减美补+全国KA新神券美补</div>
+    <div class="note">货架补贴目标=总计口径113.39W；神抢手(SQS)目标为0；战损比=B+单均补贴/MT单均补贴</div>
   </div>
 
   <div class="sec">
-    <div class="sec-t">货架补贴 - 周度<span class="tag tag-o">WoW</span></div>
+    <div class="sec-t">战损比 - 周度（近6周）<span class="tag tag-o">WoW</span></div>
     <div class="tbl-wrap">
     <table>
       <thead><tr>
         <th>周次</th>
-        <th>货架单均补贴<br><small>WoW</small></th>
-        <th>减配占比<br><small>WoW</small></th>
-        <th>折扣菜占比<br><small>WoW</small></th>
-        <th>神会员占比<br><small>WoW</small></th>
+        <th>B+单均补贴(¥)</th>
+        <th>MT单均补贴(¥)</th>
+        <th>战损比<br><small>WoW</small></th>
       </tr></thead>
       <tbody>
 <tr>
+<td class="wl">0525~0531</td>
+<td>¥6.82</td>
+<td>¥4.26</td>
+<td>1.60<br><span class="neu">基准周</span></td>
+</tr>
+<tr>
+<td class="wl">0601~0607</td>
+<td>¥7.05</td>
+<td>¥4.00</td>
+<td>1.76<br><span class="up">+0.16</span></td>
+</tr>
+<tr>
+<td class="wl">0608~0614</td>
+<td>¥6.64</td>
+<td>¥3.58</td>
+<td>1.85<br><span class="up">+0.09</span></td>
+</tr>
+<tr>
 <td class="wl">0615~0621</td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
+<td>¥7.07</td>
+<td>¥3.61</td>
+<td>1.96<br><span class="up">+0.11</span></td>
 </tr>
 <tr>
 <td class="wl">0622~0628</td>
-<td>¥0.44<br><span class="neu">-</span></td>
-<td>100.0%<br><span class="neu">-</span></td>
-<td>0.0%<br><span class="neu">-</span></td>
-<td>0.0%<br><span class="neu">-</span></td>
+<td>¥7.06</td>
+<td>¥4.12</td>
+<td>1.72<br><span class="dn">-0.24</span></td>
 </tr>
 <tr>
 <td class="wl">0629~0705</td>
-<td>¥0.24<br><span class="dn">-45.5%</span></td>
-<td>100.0%<br><span class="neu">+0.0ppt</span></td>
-<td>0.0%<br><span class="neu">-</span></td>
-<td>0.0%<br><span class="neu">-</span></td>
-</tr>
-<tr>
-<td class="wl">0706~0712</td>
-<td class="neu">-</td><td class="neu">-</td><td class="neu">-</td><td class="neu">-</td>
+<td>¥6.95</td>
+<td>¥3.18</td>
+<td>2.19<br><span class="up">+0.47</span></td>
 </tr>
       </tbody>
     </table>
     </div>
-    <div class="note">货架补贴=全国KA减配美补+满减美补+新神券美补；占比=各项/货架补贴合计；0629~0705仅含6/29-6/30两天数据</div>
+    <div class="note">战损比=B+单均补贴/MT单均补贴；B+=美团外卖+饿了么；MT=美团外卖</div>
   </div>
 
+  <div class="sec">
+    <div class="sec-t">战损比 - 月度（近3月）</div>
+    <div class="tbl-wrap">
+    <table>
+      <thead><tr>
+        <th>月份</th>
+        <th>B+单均补贴(¥)</th>
+        <th>MT单均补贴(¥)</th>
+        <th>战损比<br><small>MoM</small></th>
+      </tr></thead>
+      <tbody>
+<tr>
+<td class="wl">2026年4月</td>
+<td>¥7.02</td>
+<td>¥3.41</td>
+<td>2.06<br><span class="neu">基准月</span></td>
+</tr>
+<tr>
+<td class="wl">2026年5月</td>
+<td>¥6.83</td>
+<td>¥3.47</td>
+<td>1.97<br><span class="dn">-0.09</span></td>
+</tr>
+<tr>
+<td class="wl">2026年6月</td>
+<td>¥6.95</td>
+<td>¥3.82</td>
+<td>1.82<br><span class="dn">-0.15</span></td>
+</tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <div class="cr2">
+    <div class="cb"><h4>近6周 战损比趋势</h4><canvas id="zsC" height="160"></canvas></div>
+    <div class="cb"><h4>近3月 战损比趋势</h4><canvas id="zsMC" height="160"></canvas></div>
+  </div>
 </div>
 
 <!-- ===== TAB3 竞争信息 ===== -->
 <div id="t3" class="tc">
   <div class="sec">
-    <div class="sec-t">BK经营 - 日度（近7日）<span class="tag tag-o">WoW / DoD</span></div>
+    <div class="sec-t">竞争信息 - 日度（近7日）<span class="tag tag-o">WoWpp / DoDpp</span></div>
     <div class="tbl-wrap">
     <table>
       <thead><tr>
         <th>日期</th>
-        <th>BK实付GMV(W)<br><small>WoW / DoD</small></th>
-        <th>BK订单量<br><small>WoW / DoD</small></th>
+        <th>CR2实付M值<br><small>WoWpp / DoDpp</small></th>
+        <th>CR2订单M值<br><small>WoWpp / DoDpp</small></th>
       </tr></thead>
       <tbody>
 <tr>
 <td class="wl">07/06 周一</td>
-<td>437.23W<br><span class="neu">-</span> / <span class="neu">-</span></td>
-<td>11.57万<br><span class="neu">-</span> / <span class="neu">-</span></td>
+<td>53.7%<br><span class="dn">-3.32ppt</span> / <span class="up">+1.38ppt</span></td>
+<td>51.0%<br><span class="dn">-3.04ppt</span> / <span class="up">+1.36ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/07 周二</td>
-<td>459.67W<br><span class="dn">-12.6%</span> / <span class="up">+5.1%</span></td>
-<td>12.04万<br><span class="dn">-11.4%</span> / <span class="up">+4.1%</span></td>
+<td>53.9%<br><span class="dn">-2.84ppt</span> / <span class="up">+0.21ppt</span></td>
+<td>51.4%<br><span class="dn">-2.80ppt</span> / <span class="up">+0.44ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/08 周三</td>
-<td>468.64W<br><span class="dn">-5.0%</span> / <span class="up">+2.0%</span></td>
-<td>12.19万<br><span class="dn">-4.5%</span> / <span class="up">+1.2%</span></td>
+<td>53.2%<br><span class="dn">-0.81ppt</span> / <span class="dn">-0.71ppt</span></td>
+<td>50.6%<br><span class="dn">-0.94ppt</span> / <span class="dn">-0.78ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/09 周四</td>
-<td>452.78W<br><span class="up">+3.7%</span> / <span class="dn">-3.4%</span></td>
-<td>11.73万<br><span class="up">+3.0%</span> / <span class="dn">-3.8%</span></td>
+<td>53.8%<br><span class="dn">-0.13ppt</span> / <span class="up">+0.57ppt</span></td>
+<td>51.2%<br><span class="dn">-1.48ppt</span> / <span class="up">+0.57ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/10 周五</td>
-<td>490.25W<br><span class="up">+0.5%</span> / <span class="up">+8.3%</span></td>
-<td>12.73万<br><span class="up">+1.6%</span> / <span class="up">+8.5%</span></td>
+<td>53.3%<br><span class="dn">-0.10ppt</span> / <span class="dn">-0.55ppt</span></td>
+<td>51.1%<br><span class="up">+1.47ppt</span> / <span class="dn">-0.10ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/11 周六</td>
-<td>573.03W<br><span class="up">+8.7%</span> / <span class="up">+16.9%</span></td>
-<td>14.79万<br><span class="up">+9.8%</span> / <span class="up">+16.2%</span></td>
+<td>57.1%<br><span class="up">+2.86ppt</span> / <span class="up">+3.84ppt</span></td>
+<td>55.8%<br><span class="up">+4.86ppt</span> / <span class="up">+4.70ppt</span></td>
 </tr>
 <tr>
 <td class="wl">07/12 周日</td>
-<td>555.64W<br><span class="up">+12.5%</span> / <span class="dn">-3.0%</span></td>
-<td>14.38万<br><span class="up">+11.6%</span> / <span class="dn">-2.8%</span></td>
+<td>56.2%<br><span class="up">+3.32ppt</span> / <span class="dn">-0.92ppt</span></td>
+<td>54.7%<br><span class="up">+4.58ppt</span> / <span class="dn">-1.10ppt</span></td>
 </tr>
       </tbody>
     </table>
     </div>
-    <div class="note">WoW=与上周同星期变化率；DoD=与前一天变化率；数据来源：MT口径</div>
+    <div class="note">WoWpp=与上周同星期差值(pp)；DoDpp=与前一天差值(pp)；CR2=汉堡王+肯德基</div>
   </div>
 
   <div class="sec">
-    <div class="sec-t">BK经营 - 周度（近6周）<span class="tag tag-o">WoW</span></div>
+    <div class="sec-t">竞争信息 - 周度（近6周）<span class="tag tag-o">WoWpp</span></div>
     <div class="tbl-wrap">
     <table>
       <thead><tr>
         <th>周次</th>
-        <th>BK实付GMV(W)<br><small>WoW</small></th>
-        <th>BK订单量<br><small>WoW</small></th>
+        <th>CR2实付M值<br><small>WoWpp</small></th>
+        <th>CR2订单M值<br><small>WoWpp</small></th>
         <th>战损比</th>
       </tr></thead>
       <tbody>
 <tr>
+<td class="wl">0525~0531</td>
+<td>57.2%<br><span class="up">+1.38ppt</span></td>
+<td>55.1%<br><span class="up">+1.71ppt</span></td>
+<td>1.60</td>
+</tr>
+<tr>
 <td class="wl">0601~0607</td>
-<td>3040.07W<br><span class="neu">基准周</span></td>
-<td>79.07万<br><span class="neu">基准周</span></td>
-<td>1.76<br><span class="neu">基准周</span></td>
+<td>55.2%<br><span class="dn">-2.00ppt</span></td>
+<td>52.4%<br><span class="dn">-2.63ppt</span></td>
+<td>1.76</td>
 </tr>
 <tr>
 <td class="wl">0608~0614</td>
-<td>3043.98W<br><span class="up">+0.1%</span></td>
-<td>78.56万<br><span class="dn">-0.6%</span></td>
-<td>1.85<br><span class="up">+0.09</span></td>
+<td>55.2%<br><span class="up">+0.04ppt</span></td>
+<td>52.6%<br><span class="up">+0.14ppt</span></td>
+<td>1.85</td>
 </tr>
 <tr>
 <td class="wl">0615~0621</td>
-<td>2933.74W<br><span class="dn">-3.6%</span></td>
-<td>74.46万<br><span class="dn">-5.2%</span></td>
-<td>1.96<br><span class="up">+0.11</span></td>
+<td>53.3%<br><span class="dn">-1.94ppt</span></td>
+<td>50.6%<br><span class="dn">-1.99ppt</span></td>
+<td>1.96</td>
 </tr>
 <tr>
 <td class="wl">0622~0628</td>
-<td>3481.81W<br><span class="up">+18.7%</span></td>
-<td>89.90万<br><span class="up">+20.7%</span></td>
-<td>1.72<br><span class="dn">-0.24</span></td>
+<td>56.0%<br><span class="up">+2.72ppt</span></td>
+<td>53.5%<br><span class="up">+2.88ppt</span></td>
+<td>1.72</td>
 </tr>
 <tr>
 <td class="wl">0629~0705</td>
-<td>3435.59W<br><span class="dn">-1.3%</span></td>
-<td>86.87万<br><span class="dn">-3.4%</span></td>
-<td>2.19<br><span class="up">+0.47</span></td>
+<td>54.3%<br><span class="dn">-1.72ppt</span></td>
+<td>51.1%<br><span class="dn">-2.34ppt</span></td>
+<td>2.19</td>
 </tr>
 <tr>
 <td class="wl">0706~0712</td>
-<td>3437.25W<br><span class="up">+0.0%</span></td>
-<td>89.43万<br><span class="up">+2.9%</span></td>
-<td>1.90<br><span class="dn">-0.29</span></td>
+<td>54.5%<br><span class="up">+0.25ppt</span></td>
+<td>52.3%<br><span class="up">+1.21ppt</span></td>
+<td>-</td>
 </tr>
       </tbody>
     </table>
@@ -504,51 +501,51 @@ small{font-size:10px;color:#999}
   </div>
 
   <div class="sec">
-    <div class="sec-t">BK经营 - 月度（近6月）<span class="tag tag-o">MoM</span></div>
+    <div class="sec-t">竞争信息 - 月度（近6月）<span class="tag tag-o">MoMpp</span></div>
     <div class="tbl-wrap">
     <table>
       <thead><tr>
         <th>月份</th>
-        <th>BK实付GMV(W)<br><small>MoM</small></th>
-        <th>BK订单量<br><small>MoM</small></th>
+        <th>CR2实付M值<br><small>MoMpp</small></th>
+        <th>CR2订单M值<br><small>MoMpp</small></th>
         <th>战损比</th>
       </tr></thead>
       <tbody>
 <tr>
 <td class="wl">2026年1月</td>
-<td class="neu">-<br><span class="neu">基准月</span></td>
-<td class="neu">-<br><span class="neu">基准月</span></td>
-<td class="neu">-</td>
+<td>56.4%<br><small>MoM:<span class="up">+1.49ppt</span></small></td>
+<td>54.3%<br><small>MoM:<span class="up">+0.92ppt</span></small></td>
+<td>-</td>
 </tr>
 <tr>
 <td class="wl">2026年2月</td>
-<td class="neu">-<br><span class="neu">-</span></td>
-<td class="neu">-<br><span class="neu">-</span></td>
-<td class="neu">-</td>
+<td>58.5%<br><small>MoM:<span class="up">+2.07ppt</span></small></td>
+<td>56.5%<br><small>MoM:<span class="up">+2.19ppt</span></small></td>
+<td>-</td>
 </tr>
 <tr>
 <td class="wl">2026年3月</td>
-<td>12502.19W<br><span class="neu">基准月</span></td>
-<td>399.19万<br><span class="neu">基准月</span></td>
-<td>1.70<br><span class="neu">基准月</span></td>
+<td>59.3%<br><small>MoM:<span class="up">+0.76ppt</span></small></td>
+<td>59.5%<br><small>MoM:<span class="up">+3.03ppt</span></small></td>
+<td>1.70</td>
 </tr>
 <tr>
 <td class="wl">2026年4月</td>
-<td>11646.94W<br><span class="dn">-6.8%</span></td>
-<td>322.66万<br><span class="dn">-19.2%</span></td>
-<td>2.06<br><span class="up">+0.36</span></td>
+<td>55.7%<br><small>MoM:<span class="dn">-3.53ppt</span></small></td>
+<td>54.0%<br><small>MoM:<span class="dn">-5.50ppt</span></small></td>
+<td>2.06</td>
 </tr>
 <tr>
 <td class="wl">2026年5月</td>
-<td>13422.39W<br><span class="up">+15.2%</span></td>
-<td>353.86万<br><span class="up">+9.7%</span></td>
-<td>1.97<br><span class="dn">-0.09</span></td>
+<td>56.5%<br><small>MoM:<span class="up">+0.77ppt</span></small></td>
+<td>54.5%<br><small>MoM:<span class="up">+0.51ppt</span></small></td>
+<td>1.97</td>
 </tr>
 <tr>
 <td class="wl">2026年6月</td>
-<td>13466.79W<br><span class="up">+0.3%</span></td>
-<td>347.19万<br><span class="dn">-1.9%</span></td>
-<td>1.82<br><span class="dn">-0.15</span></td>
+<td>55.4%<br><small>MoM:<span class="dn">-1.12ppt</span></small></td>
+<td>52.5%<br><small>MoM:<span class="dn">-2.05ppt</span></small></td>
+<td>1.82</td>
 </tr>
       </tbody>
     </table>
@@ -670,16 +667,16 @@ new Chart(document.getElementById('gmvC'),{type:'bar',data:{labels:L26,datasets:
 new Chart(document.getElementById('dayGmvC'),{type:'line',data:{labels:["07/06","07/07","07/08","07/09","07/10","07/11","07/12"],datasets:[{data:[437.23,459.67,468.64,452.78,490.25,573.03,555.64],borderColor:R,backgroundColor:R+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'W'}}}}});
 
 // TAB2: 战损比周度趋势
-new Chart(document.getElementById('zsC'),{type:'line',data:{labels:["0525~0531","0601~0607","0608~0614","0615~0621","0622~0628","0629~0705","0706~0712"],datasets:[{data:[1.60,1.76,1.85,1.96,1.72,2.19,1.90],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:4,pointBackgroundColor:O}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)}}},scales:{...BO.scales,y:{...BO.scales.y,min:1.4,max:2.4}}}});
+new Chart(document.getElementById('zsC'),{type:'line',data:{labels:["0525~0531","0601~0607","0608~0614","0615~0621","0622~0628","0629~0705"],datasets:[{data:[1.60,1.76,1.85,1.96,1.72,2.19],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:4,pointBackgroundColor:O}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)}}},scales:{...BO.scales,y:{...BO.scales.y,min:1.4,max:2.4}}}});
 
 // TAB2: 战损比月度趋势
 new Chart(document.getElementById('zsMC'),{type:'bar',data:{labels:["2026年4月","2026年5月","2026年6月"],datasets:[{data:[2.06,1.97,1.82],backgroundColor:[R+'cc',O+'cc',Y+'cc'],borderColor:[R,O,Y],borderWidth:1,borderRadius:4}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)}}},scales:{...BO.scales,y:{...BO.scales.y,min:1.5,max:2.3}}}});
 
 // TAB3: CR2实付M值月度趋势
-new Chart(document.getElementById('cr2GmvC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月","7月(截至12日)"],datasets:[{data:[56.45,58.51,59.27,55.74,56.52,55.39,54.06],borderColor:R,backgroundColor:R+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('cr2GmvC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月"],datasets:[{data:[56.45,58.51,59.27,55.74,56.52,55.39],borderColor:R,backgroundColor:R+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
 
 // TAB3: CR2订单M值月度趋势
-new Chart(document.getElementById('cr2OrdC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月","7月(截至12日)"],datasets:[{data:[54.27,56.47,59.50,54.00,54.51,52.46,51.41],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('cr2OrdC'),{type:'line',data:{labels:["2026年1月","2026年2月","2026年3月","2026年4月","2026年5月","2026年6月"],datasets:[{data:[54.27,56.47,59.50,54.00,54.51,52.46],borderColor:O,backgroundColor:O+'22',fill:true,tension:0.3,pointRadius:3}]},options:{...BO,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},scales:{...BO.scales,y:{...BO.scales.y,ticks:{callback:v=>v+'%'}}}}});
 </script>
 </body>
 </html>
